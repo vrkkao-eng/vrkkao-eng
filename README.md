@@ -15,6 +15,13 @@ Public Python package/CLI for structured findings, RDF/JSON-LD export, SPARQL ex
 
 **Stack:** Python 3.11+ · RDFLib · pySHACL · SPARQL · JSON-LD · pytest · GitHub Actions · optional Anthropic tool loop
 
+### [Adaptive KG Reasoning](https://github.com/vrkkao-eng/adaptive-kg-reasoning)
+**Incremental reasoning · dynamic knowledge graphs · reproducible evaluation**
+
+Experimental Python prototype comparing full recomputation with incremental maintenance over dynamic knowledge-graph windows. Current benchmarks test exact result equivalence while measuring maintenance cost across different window-overlap regimes.
+
+**Stack:** Python · RDFLib · OWL-RL · pytest · benchmark/evaluation pipelines
+
 ### [MAILO — Medical AI Legal Ontology](https://github.com/vrkkao-eng/Mailo-ontology)
 **Knowledge graph · OWL 2 · SHACL · EU medical-AI regulation**
 
@@ -27,14 +34,9 @@ Four-person web application for discovering work-friendly cafés in Taiwan. My c
 
 **Stack:** Node.js · Express · Leaflet · multi-source APIs · OAuth token caching · fallback handling · Vercel
 
-### [Venezuela Earthquake Companion Desk](https://github.com/vrkkao-eng/venezuela-earthquake-companion-desk)
-**Offline-first prototype · constrained-system design**
-
-Field-oriented prototype exploring compact building-record encoding, tactical routing, satellite-pass calculations, and multilingual offline-first interaction under low-connectivity constraints.
-
 ## Engineering profile
 
-- **AI / knowledge engineering:** LLM tool use, RDF, OWL, SHACL, SPARQL, knowledge graphs
+- **AI / knowledge engineering:** LLM tool use, RDF, OWL, SHACL, SPARQL, knowledge graphs, incremental reasoning
 - **Python:** RDFLib, pySHACL, pytest, packaging, CLI applications
 - **Web / integration:** Node.js, Express, REST APIs, BFF architecture, JavaScript
 - **Engineering practice:** Git/GitHub, GitHub Actions CI, reproducible validation, provenance-aware outputs
